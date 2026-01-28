@@ -1,6 +1,6 @@
 # CITC1010 
-start the GitHub and visual studio
+
 
 <ul>
-<li>Dog</li>
+<li><a href="intro.html" target="_blank">intro to html</li>
 </ul>
