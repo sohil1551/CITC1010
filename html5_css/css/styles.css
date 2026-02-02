@@ -4,7 +4,7 @@ body {
 
 #container {
     background-color:#f0f8ff;
-    width: 950;
+    width: 950PX;
     margin: 20px auto;
     border: 4px solid #0000ff;
     padding: 20px;
@@ -34,7 +34,7 @@ nav a {
     margin: 0 20px;
 }
 
-nav a:havor {
+nav a:hover {
     color:#000000;
     text-decoration: none;
 }
