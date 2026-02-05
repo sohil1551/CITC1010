@@ -1,10 +1,25 @@
 body {
-    background-color: aqua;
+    background-color: #00ffff;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #6495ed;
+}
+
+a :hover {
+    color: #f0f8ff;
+    text-decoration: none;
 }
 
 #container {
     background-color:#f0f8ff;
-    width: 950PX;
+    width: 65%;
     margin: 20px auto;
     border: 4px solid #0000ff;
     padding: 20px;
@@ -13,55 +28,114 @@ body {
 
 header {
       text-align: center;
-      padding: 50px;
+      padding: 40px;
+      border-bottom: 2px solid #00ffff;
 }
 
 header h1 {
       color: #0000ff;
-      font-size: 30px;
+      font-size: 50px;
 }
 
 nav {
+    
     text-align: center;
-    border-top: 4px solid #0000ff;
-    border-bottom: 4px solid #0000ff;
-    padding: 20px 0;
+    border-bottom: 2px solid #00ffff;
 }
 
-nav a {
-    color: #0000ff;
-    font-size: 30px;
-    margin: 0 20px;
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    margin-left: 40%;
 }
 
-nav a:hover {
-    color:#000000;
+nav li {
+    padding: 10px 0;
+    display:inline;
+}
+
+nav li a {
+    text-align: center;
+    display: block;
+    background-color: #6495ed;
+    color: #7fff00;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
     text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #00ffff;
+}
+
+nav li a:hover {
+    color: #0000ff;
+    background-color:#f0f8ff;
 }
 
 main {
-    margin: 20px auto;
-    border: 4px solid #0000ff;
-    padding: 20px;
-    border-radius: 20px;
+ color: #7fff00;
 }
 
-
-main h2 {
+main h2,h3 {
      color: #0000ff;
      text-align: center;
 }
 
-main img {
-      display: block;
-      margin: 20px auto;
-      width: 600px;
-      border-radius: 20px;
-      align-content: center;
+.multi_col {
+    display: flex;
+}
+
+section,
+ aside {
+    border-radius: 20px;
+    border: 2px solid #4400ff;
+    border-bottom: #bc3030;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    color: #0000ff;
+    width: 75%;
+}
+
+aside {
+    color: #0000ff;
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border: 2px solid #6495ed;
+    width: 75%;
 }
 
 footer {
     padding: 40px 0;
     text-align: center;
-    border-top: 4px solid #0000ff;
+}
+
+.img_style {
+    border: 2px solid #6495ed;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00ffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid#00ffff;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #6495ed;
+}
+
+.contact_c {
+    text-align: center;
 }

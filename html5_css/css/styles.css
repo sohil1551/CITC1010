@@ -63,8 +63,33 @@ nav li a:hover {
    background-color: #aa2a2a;
 }
 
-main {
+main h2 {
     text-align: center;
     color: #ff7f50;
 }
 
+.multi_col {
+       display: flex;
+}
+
+section,
+aside {
+    border-radius: 20px;
+    border: 2px solid #5f9ea0;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    border-radius: 10px;
+    border: 2px solid #6495ed;
+    width: 75%;
+}
