@@ -45,13 +45,12 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding: 10px 0;
-    margin-left: 40%;
+    padding: 0;
 }
 
 nav li {
     padding: 10px 0;
-    display:inline;
+    display:inline-block;
 }
 
 nav li a {
